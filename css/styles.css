@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon:ital@0;1&display=swap');
+
+:root{
+    --bg-color-black:#040303;
+    --bg-color-white:#FCFCFC;
+
+}
+
+
+/*====== HEADER ======*/
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+}
+
+.logo{
+    padding: 20px 43px;
+    text-decoration: none;
+    color: #E89317;
+    font-family: "IM Fell French Canon", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.menu{
+    padding: 20px 26px;
+}
+
+.buttonContacto{
+    color: #E89317;
+    padding: 8px 8px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid #EBBC52;
+    margin-right: 27px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
