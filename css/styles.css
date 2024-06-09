@@ -46,3 +46,54 @@ header{
 
 
 /*====== HERO ======*/
+.foco-contenedor{
+    width: 100%;
+    height: 100vh;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foco{
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/verozuliani.jpg"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.foco-back{
+    display: flex;
+    justify-content:flex-start;
+    height: 100vh;
+    align-items: flex-end;
+}
+
+.foco-back::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(4, 3, 3, .8);
+    position: absolute;
+    top:0;
+    left: 0;
+}
+
+.foco-front{
+    position: absolute;
+    top: 0;
+    clip-path: circle(14em at center);
+}
+
+.foco-circulo{
+    position: absolute;
+    width: 28em;
+    height: 28em;
+    border-radius: 50%;
+    border: 5px solid #E89317;
+}
