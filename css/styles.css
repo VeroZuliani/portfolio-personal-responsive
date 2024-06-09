@@ -97,3 +97,37 @@ header{
     border-radius: 50%;
     border: 5px solid #E89317;
 }
+
+.hero-contenedor{
+    color: #E89317;
+    display: flex;
+    justify-content:flex-end;
+    flex-direction: column;
+    height: 100vh;
+    margin-left: 86px;
+    z-index: 2;
+}
+
+.hero-contenedor h2{
+    font-family: "IM Fell French Canon", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    margin-bottom: 18px;
+}
+
+.hero-contenedor h1{
+    font-family: "IM Fell French Canon", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.hero-contenedor p{
+    color: white;
+    margin-bottom: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
