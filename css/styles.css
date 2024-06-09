@@ -131,3 +131,52 @@ header{
     font-style: normal;
     font-size: 40px;
 }
+
+
+/*====== SOBRE MI ======*/
+.sobreMi{
+    height: 100vh;
+    background-color: white;
+    text-align: center;
+}
+
+.sobreMi h1{
+    color: #333333;
+    padding-top: 60px;
+}
+
+.presentacion{
+    margin: 31px 65px 42px 52px;
+    text-indent: 30px;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #6e6e6e;
+    line-height: 2;
+    text-align: center;
+}
+
+.sobreMi-contenedor{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 86px;
+    margin-bottom: 68px;
+}
+
+.sobreMi-contenedor h2{
+    color: #333333;
+    margin: 2px 0 14px 0;
+}
+
+.sobreMi-contenedor p{
+    width: 142px;
+    color: #6e6e6e;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.2;
+    text-indent: 30px;
+}
