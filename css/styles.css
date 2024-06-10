@@ -181,3 +181,40 @@ header{
     line-height: 1.2;
     text-indent: 30px;
 }
+
+
+/*====== EXPERIENCIAS Y HABILIDADES ======*/
+.habilidades{
+    background-color: var(--bg-color-black);
+}
+
+.habilidades h1{
+    color:#cea70a;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.experiencias{
+    color:#cea70a;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 27px 82px 52px 47px;
+    /* width: 332px;
+    height: 86px; */
+}
+
+
+.exp{
+    display: inline-block;
+}
+
+.exp h3{
+    font-size: 14px;
+}
+
+.exp p{
+    text-decoration: underline; /*linea debajo de texto*/
+    text-underline-offset: 5px; /*espacio entre texto y linea*/
+    line-height: 0px;
+}
