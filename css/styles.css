@@ -298,3 +298,62 @@ header{
     cursor: pointer;
     
 }
+
+
+/*====== CONTACTO ======*/
+.contacto{
+    background-color: var(--bg-color-black);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.contacto h1{
+    color:#cea70a;
+    padding-top: 60px;
+}
+
+.contacto p{
+    color:#cea70a;
+}
+
+.contacto hr{
+    /* color:#cea70a; */
+    border: 1px solid #cea70a;
+}
+
+.info-contenedor{
+    width: 736px;
+    height: 304px;
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 0 78px 0;
+}
+
+
+.info img{
+    margin-bottom: 28px;
+}
+
+.info p{
+    color:#cea70a;
+    display: inline-block;
+}
+
+.form-contenedor{
+    margin-right: 46px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.autor{
+    color:#cea70a;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 20px 12px 14px;
+}
