@@ -418,7 +418,6 @@ header{
 }
 
 .contacto hr{
-    /* color:#cea70a; */
     border: 1px solid #cea70a;
 }
 
@@ -428,20 +427,29 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 48px 0 78px 0;
+    align-content: center;
+    align-items: center; 
 }
 
+.datos{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 52px;
+    margin-top: 36px;
+}
 
-.info img{
+.datos img{
     margin-bottom: 28px;
+    margin-right: 3px;
 }
 
-.info p{
+.datos p{
     color:#cea70a;
-    display: inline-block;
 }
 
 .form-contenedor{
     margin-right: 46px;
+    background-color: #6e6e6e;
 }
 
 .form{
@@ -455,3 +463,5 @@ header{
     justify-content: space-between;
     padding: 16px 20px 12px 14px;
 }
+
+
