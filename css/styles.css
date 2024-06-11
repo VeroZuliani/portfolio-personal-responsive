@@ -417,18 +417,14 @@ header{
     color:#cea70a;
 }
 
-.contacto hr{
-    border: 1px solid #cea70a;
-}
-
 .info-contenedor{
     width: 736px;
-    height: 304px;
+    height: 390px;
     display: flex;
     justify-content: space-between;
-    padding: 48px 0 78px 0;
     align-content: center;
     align-items: center; 
+    background-color: #584747;
 }
 
 .datos{
@@ -457,11 +453,21 @@ header{
     flex-direction: column;
 }
 
+
+/*====== FOOTER ======*/
 .autor{
+    background-color: var(--bg-color-black);
     color:#cea70a;
-    display: flex;
-    justify-content: space-between;
-    padding: 16px 20px 12px 14px;
+    padding: 5px 0 2px 0;
 }
 
+hr{
+    border: 1px solid #cea70a;
+}
+
+.nom{
+    display: flex; 
+    justify-content: space-between;
+    padding: 0 20px;
+}
 
