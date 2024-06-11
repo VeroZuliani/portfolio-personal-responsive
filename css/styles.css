@@ -236,7 +236,7 @@ header{
     height: 176px;
     margin-left: 40px;
     padding-bottom: 30px;
-  }
+}
 
 .hab-contenedor{
     display: flex;
@@ -424,7 +424,6 @@ header{
     justify-content: space-between;
     align-content: center;
     align-items: center; 
-    background-color: #584747;
 }
 
 .datos{
@@ -445,12 +444,64 @@ header{
 
 .form-contenedor{
     margin-right: 46px;
-    background-color: #6e6e6e;
+    width: 350px;
+    height: 390px;
 }
-
+  
 .form{
     display: flex;
     flex-direction: column;
+    overflow: hidden;
+}
+ 
+.input-nom, .input-email, .input-asunto{
+/* .form-grupo input{ */
+    width: 100%;
+    background: none;
+    border: none;
+    color:#cea70a;
+    outline: 0px;
+    padding-top: 35px;
+    border-bottom: 2px solid #cea70a;
+    /* font-size: 10px; */
+    position: relative;
+}
+
+.input-msj{
+    width: 100%;
+    background: none;
+    border: none;
+    color:#cea70a;
+    outline: 0px;
+    padding-top: 80px;
+    border-bottom: 2px solid #cea70a;
+    /* font-size: 10px; */
+    position: relative;
+}
+
+.form-grupo label{
+    position: absolute;
+    left: 0px;
+    margin-left: 648px;
+    margin-top: -20px;
+    color: rgb(126, 126, 126);
+    pointer-events: none;
+    /* font-size: 10px; */
+    transition: all 0.2s linear;
+}
+
+.form-grupo input:focus ~ label, input:valid ~ label, .form-grupo input:not(:placeholder-shown) ~label{
+    transform: translateY(-30px);
+    color: #cea70a;
+}
+
+.enviar{
+    margin-top: 20px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #cea70a;
+    cursor: pointer;
 }
 
 

@@ -213,17 +213,30 @@
 
                 <form class="form-contenedor">
                     <section class="form">
-                        <input type="text">
-                        <label for="">Nombre</label>
-                        <input type="email">
-                        <label for="">Correo Electrónico</label>
-                        <input type="text">
-                        <label for="">Asunto</label>
-                        <input type="text">
-                        <label for="">Mensaje</label> 
+
+                        <section class="form-grupo">
+                            <input class="input-nom"type="text" placeholder=" " required>
+                            <label class="label-nom" for="">Nombre</label>
+                        </section>
+
+                        <section class="form-grupo">
+                            <input class="input-email"type="email" placeholder=" " required>
+                            <label class="label-email" for="">Correo Electrónico</label>
+                        </section>
+                    
+                        <section class="form-grupo">
+                            <input class="input-asunto"type="text" placeholder=" " required>
+                            <label class="label-asunto" for="">Asunto</label>
+                        </section>
+                    
+                        <section class="form-grupo">
+                            <input class="input-msj" type="text" placeholder=" " required>
+                            <label class="label-msj" for="">Mensaje</label> 
+                        </section>
+                        
                     </section>
             
-                    <button type="submit">Enviar</button>
+                    <button class="enviar" type="submit">Enviar</button>
                 </form>
             </section>
 
