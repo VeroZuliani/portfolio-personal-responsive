@@ -201,6 +201,11 @@ header{
     text-indent: 15px;
 }
 
+.sobreMi-contenedor img{
+    width: 104px;
+    height: 105px;
+}
+
 
 /*====== EXPERIENCIAS Y HABILIDADES ======*/
 .habilidades{
@@ -232,6 +237,8 @@ header{
 
 .expe-contenedor img{
     padding-left: 80px;
+    width: 60px;
+    height: 60px;
 }
 
 .exp{
@@ -419,6 +426,8 @@ background-color: var(--color);
 
 .proyectos-contenedor img{
     padding: 0 15px;
+    width: 150px;
+    height: 150px;
 }
 
 .buttonProyectos{
@@ -479,8 +488,8 @@ color: var(--color-form-label);
 .datos img{
     margin-bottom: 28px;
     margin-right: 3px;
-    /* width: 54px;
-    height: 54px; */
+    width: 54px;
+    height: 54px;
 }
 
 .datos p{
