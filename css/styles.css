@@ -479,6 +479,8 @@ color: var(--color-form-label);
 .datos img{
     margin-bottom: 28px;
     margin-right: 3px;
+    /* width: 54px;
+    height: 54px; */
 }
 
 .datos p{
