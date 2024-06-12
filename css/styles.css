@@ -55,6 +55,13 @@ header{
     font-family: var(--font-family-roboto);
     font-weight: var(--font-weight);
     font-style: var(--font-style);
+    cursor: pointer;
+    transition: background-color 1s, color 1s;
+}
+
+.buttonContacto:hover{
+    background-color: var(--color);
+    color: var(--bg-color-white);
 }
 
 
@@ -357,8 +364,6 @@ header{
 /*====== PROYECTOS ======*/
 .proyectos{
     background-color: var(--bg-color-white);
-    /* width: 100%;
-    height: 100%; */
     display: flex;
     justify-content: center;
     align-content: center;
@@ -386,7 +391,13 @@ header{
     cursor: pointer;    
     display: flex;
     justify-content: center;
+    transition: background-color 1s;
 }
+
+.btn:hover{
+background-color: var(--color);
+}
+
 
 .btn-boton1{
     border-radius: 5px 0 0 5px;
@@ -417,7 +428,12 @@ header{
     border: 1px solid var(--color-form-label);
     cursor: pointer;
     background-color: var(--bg-color-white);
-    
+    transition: background-color 1s, color 1s;
+}
+
+.buttonProyectos:hover{
+background-color: var(--color);
+color: var(--color-form-label);
 }
 
 
@@ -545,6 +561,12 @@ header{
     font-weight: var(--font-weight);
     font-style: var(--font-style);
     font-size: 14px;
+    transition: background-color 1s, color 1s;
+}
+
+.enviar:hover{
+color: var(--color);
+background-color: var(--color-form-label);
 }
 
 
