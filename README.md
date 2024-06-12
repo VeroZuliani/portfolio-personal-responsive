@@ -14,7 +14,7 @@ LENGUAJES:
 
 
 ********* VER PÁGINA EN ESTE ENLACE *********
-
+https://verozuliani.github.io/portfolio-personal-responsive/
 
 
 
