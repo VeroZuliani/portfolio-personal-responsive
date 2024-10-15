@@ -1,42 +1,119 @@
 
-/* @media(max-width:320px){
+@media(max-width:320px){
+    /* Hero */
+    .hero-contenedor h2{font-size: 20px;}
+    .hero-contenedor h1{font-size: 33px;}
+    .hero-contenedor p{font-size: 23px;}
+    .foco-front{clip-path: circle(11em at center);}
+    .foco-circulo{border: none;}
 
-} */
+    /* Proyectos */
+    .btn-boton1{margin-left: 10px;}
+    .btn-boton4{margin-right: 10px;}
 
-/* @media(max-width:480px){
-    .sobreMi{
-        display: flex;
-        justify-content: center;
-        align-content: center;
-        align-items: center;
+    /* Contacto */
+    .contacto p{margin: 0 20px 0 20px;}
+    .datos p{margin: 20px 0 0 0;}
+    .form{margin: 0 40px 0 40px;}
+    .enviar{margin-left: 40px;}
+
+    /* Footer */
+    .nom{
+        padding: 0 10px;
+        font-size: 11px;
     }
-
-} */
-/* 
-@media(max-width:768px){
-
 }
 
-@media(max-width:1024px){
+
+@media(max-width:480px){
+    /* Hero */
+    .hero-contenedor{margin-left: 20px;}
+    .foco{background-image: url("../img/verozuliani_mobile.jpg");}
+    .foco-front{clip-path: circle(12em at center);}
+    .foco-circulo{
+        width: 24em;
+        height: 24em;
+    }
+
+    /* Sobre Mi */
+    .sobreMi-contenedor {
+        flex-direction: column; 
+        align-items: center;
+    }
+    .sobreMi-contenedor img {margin-top: 15px;}
+
+    /* Experiencias y Habilidades */
+    .experiencias{
+        display: block;
+        margin-bottom: 100px;
+    }
+    .expe-contenedor{ 
+        display: flex;
+        justify-content: center;
+        margin-left: 50px;
+    }
+    .expe-contenedor img{
+        padding-left: 0px; 
+        margin-bottom: 20px;
+    }
+    .exp{width: 215px;}
+    
+    .hab-contenedor{
+        flex-direction: column; 
+        align-items: center;
+        margin-top: 10px;
+    }
+    .lenguaje{width: 215px;}
+
+    /* Proyectos */
+    .btn{padding: 15px 5px;}
+    .proyectos-contenedor{
+        width: 300px;
+        height: 1200px;
+        justify-content: center;
+    }
+    .proyectos-contenedor img{padding: 0 25px;}
+
+    /* Contacto */
+    .info-contenedor{
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .form-contenedor{margin: 0;}
+}
+ 
+
+/* @media(max-width:768px){
 
 } */
 
-/* @media(max-width:1280px){
-    .form-grupo label{
-        margin-right: 610px;
+
+@media(max-width:1024px){
+    /* Sobre Mi */
+    .presentacion {
+        margin: 31px 50px 42px 50px;
+        text-indent: 10px;
+        font-size: 16px;
     }
+}
+
+
+/* @media(max-width:1280px){
 } */
 
 /* @media(max-width:1440px){
-
-    .form-grupo label{
-        margin-left: 690px;
-    }
 } */
 
-/* @media(max-width:1920px){
-    .form-grupo label{
-        margin-left: 930px;
+
+@media(min-width:1920px){
+    /* Hero */
+    .foco-front {clip-path: circle(22em at center);}
+    .foco-circulo {
+        width: 44em;
+        height: 44em;
     }
-   
-} */
+    .hero-contenedor h2{font-size: 55px;}
+    .hero-contenedor h1{font-size: 75px;}
+    .hero-contenedor p{font-size: 65px;}
+}
