@@ -4,8 +4,6 @@
     .hero-contenedor h2{font-size: 20px;}
     .hero-contenedor h1{font-size: 33px;}
     .hero-contenedor p{font-size: 23px;}
-    .foco-front{clip-path: circle(11em at center);}
-    .foco-circulo{border: none;}
 
     /* Proyectos */
     .btn-boton1{margin-left: 10px;}
@@ -29,11 +27,8 @@
     /* Hero */
     .hero-contenedor{margin-left: 20px;}
     .foco{background-image: url("../img/verozuliani_mobile.jpg");}
-    .foco-front{clip-path: circle(12em at center);}
-    .foco-circulo{
-        width: 24em;
-        height: 24em;
-    }
+    .foco-front{clip-path: none;}
+    .foco-circulo{display: none;}
 
     /* Sobre Mi */
     .sobreMi-contenedor {
