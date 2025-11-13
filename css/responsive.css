@@ -39,7 +39,8 @@
 
     /* Experiencias y Habilidades */
     .experiencias{
-        display: block;
+        display: grid;
+        grid-column: 1;
         margin-bottom: 100px;
     }
     .expe-contenedor{ 
